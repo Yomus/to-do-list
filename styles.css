@@ -1,5 +1,5 @@
 body {
-    background-color: #3498db; /* Azul mais suave */
+    background-color: #db3434; /* Azul mais suave */
     text-align: center;
     color: white;
     font-size: 22pt;
@@ -50,7 +50,7 @@ li {
 }
 
 li button {
-    background-color: #e74c3c; /* Vermelho mais suave */
+    background-color: #a31000; /* Vermelho mais suave */
     color: white;
     border: none;
     height: 30px;
