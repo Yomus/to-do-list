@@ -1,0 +1,59 @@
+body {
+    background-color: #3498db; /* Azul mais suave */
+    text-align: center;
+    color: white;
+    font-size: 22pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    background-color: #ecf0f1; /* Cinza claro */
+    width: 60vw; /* Alterado para vw para torná-lo mais responsivo */
+    max-width: 400px; /* Adicionado um tamanho máximo */
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20vh auto; /* Ajustado para centralizar verticalmente */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicionado uma sombra sutil */
+}
+
+input[type='text'] {
+    border-radius: 20px;
+    border: 1px solid #bdc3c7; /* Suavizado a cor da borda */
+    padding: 10px;
+    width: 80%; /* Ajustado para ocupar 80% da largura do container */
+}
+
+input[type='submit'] {
+    border-radius: 10px;
+    border: none;
+    background-color: #2ecc71; /* Verde mais atraente */
+    padding: 10px 15px; /* Ajustado o preenchimento */
+    color: white;
+    cursor: pointer; /* Adicionado um indicador de cursor */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    color: #2c3e50; /* Cor do texto mais escura */
+    display: flex;
+    justify-content: space-between; /* Adicionado espaço entre o texto e o botão */
+    align-items: center;
+    margin: 10px;
+    background-color: #fff; /* Fundo branco para cada item */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adicionado uma sombra leve */
+}
+
+li button {
+    background-color: #e74c3c; /* Vermelho mais suave */
+    color: white;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer; /* Adicionado um indicador de cursor */
+}
